@@ -1,0 +1,17 @@
+The function prints a simple time-series plot but one can define which series to
+print on the 2nd yaxis.
+
+The function needs the following arguments
+
+matrix M -           matrix including data, variables ordered per column, 1st col holds observation vector
+matrix y2sel -       selection vector: 0=plot colums on the right y-axis, 1=on the left y-axis
+string col_names -   holding names of columns of X
+string ttitle -      Title string
+string ylabel -      ylabel string
+string ylabel2 -     y2label string
+string xlabel -      xlabel string
+string filename -    output file: could be "display" or "path\filename.plottype" (plottype: *.png, *.pdf etc.)
+
+VERSIONS:
+0.1 (Sept 2015)
+

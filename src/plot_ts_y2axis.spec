@@ -1,0 +1,10 @@
+author = Artur Tarassow
+email = atecon@posteo.de
+version = 0.1
+date = 2015-09-21
+description = Single scatter plot with 2 y-axis + with lines
+tags = C88
+min-version = 1.9.4
+public = plot_ts_y2axis
+help = plot_ts_y2axis_help.txt
+sample-script = plot_ts_y2axis_sample.inp
